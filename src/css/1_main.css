@@ -50,20 +50,21 @@ footer{
 footer p{
     display: flex;
     align-items: center;
-    height: 2.4vw;
+    height: 3vw;
     font-size: 2vw;
+    opacity: 0.5;
 }
 footer a{
     display: flex;
     align-items: center;
-    height: 2.4vw;
+    height: 3vw;
     font-size: 2vw;
 }
 footer img{
     height: 2vw;
     padding-left: 2vw;
     padding-right: 1vw;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 h1{
     font-size: 3vw;
@@ -81,7 +82,7 @@ h2{
     color: var(--color-4);
 }
 header h2{
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: lighter;
     margin-top: 2vh;
     padding: 0 1vh 0 1vh;
@@ -168,6 +169,8 @@ a{
 
 .subfooter1{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pagebreak{
